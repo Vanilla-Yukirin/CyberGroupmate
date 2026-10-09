@@ -451,7 +451,6 @@ export class Sandbox extends EventEmitter {
             `alias pip3="pip3 install --target $PIP_TARGET"`,
             `alias node="node"`,
             `alias tsx="npx tsx"`,
-            `alias git="git -C $HOME"`,
             `alias ll="ls -la"`,
             `alias la="ls -A"`,
         ].join("\n") + "\n";
